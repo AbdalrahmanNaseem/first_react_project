@@ -7,7 +7,7 @@ import Dashboard from "./pages/Dashboard";
 import AllUsers from "./pages/AllUsers";
 import UserProfile from "./pages/UserProfile";
 import Campaigns from "./pages/Campaigns";
-import CampaignDetails from "./pages/CampaignDetails";
+import CampaignDetails from "./pages/CampaignDetails.js";
 
 
 
