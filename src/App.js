@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom"; // ← غيّرنا BrowserRouter إلى HashRouter
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./components/LandingPage";
 import LoginPage from "./components/LoginPage";
 
@@ -8,6 +8,8 @@ import AllUsers from "./pages/AllUsers";
 import UserProfile from "./pages/UserProfile";
 import Campaigns from "./pages/Campaigns";
 import CampaignDetails from "./pages/CampaignDetails";
+
+
 
 function App() {
   return (
@@ -20,6 +22,9 @@ function App() {
         <Route path="/user/:username" element={<UserProfile />} />
         <Route path="/campaigns" element={<Campaigns />} />
         <Route path="/campaign/:campaignName" element={<CampaignDetails />} />
+
+
+
       </Routes>
     </Router>
   );
